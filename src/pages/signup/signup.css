@@ -1,0 +1,92 @@
+/* :root {
+  --primary-color: #808080;
+  --gray-light: #f0f0f0;
+  --button-blue-color: #4e94f0;
+  --red-marker-icon: #e64c4c;
+  --very-light-gray: #e2e0e0bd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+} */
+
+/************main started*************/
+.signup-box-outside {
+  background-color: var(--very-light-gray);
+  display: flex;
+  justify-content: center;
+  height: 88.4vh;
+}
+
+.signup-box-outside label {
+  display: block;
+}
+
+.signup-box {
+  width: 23.5rem;
+  height: 31.75rem;
+  padding: 3rem;
+  background-color: white;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding-top: 2rem;
+}
+
+.signup-box h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.row-1 {
+  margin-top: 10px;
+}
+
+.email-input,
+.password-input {
+  width: 100%;
+  padding: 8px 11px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.signup-box button {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+  border: 1px solid rgb(253, 59, 59);
+  background-color: rgb(253, 59, 59);
+  color: white;
+}
+
+.icon-new-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newaccount-icon {
+  height: 24px;
+  width: 24px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.label {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}

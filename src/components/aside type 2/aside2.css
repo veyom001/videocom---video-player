@@ -1,0 +1,16 @@
+.aside2 {
+  min-width: 3rem;
+  margin-top: 1rem;
+  height: 30rem;
+  position: sticky;
+  top: 3.5rem;
+}
+
+.aside2 * {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.4rem;
+  margin-left: 0px;
+  font-size: 18px;
+}

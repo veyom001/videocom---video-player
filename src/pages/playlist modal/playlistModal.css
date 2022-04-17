@@ -1,0 +1,101 @@
+/* confirmation-dialog*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.confirmation-dialog {
+  height: 375px;
+  width: auto;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  border-radius: 5px;
+  position: fixed;
+  left: 40%;
+  right: auto;
+  top: 15%;
+}
+.confirmation-dialog h2 {
+  margin: 0px 10px;
+  padding: 20px 0px 0px 0px;
+}
+.confirmation-dialog-content {
+  display: flex;
+  flex-direction: column;
+}
+.confirmation-dialog-content li {
+  padding: 6px;
+}
+.confirmation-dialog-content ul {
+  width: 230px;
+  height: 175px;
+  overflow-y: scroll;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+  border-top: 1px solid rgba(0, 0, 0, 0.137);
+}
+.confirmation-dialog-content label {
+  padding: 10px;
+}
+.confirmation-dialog-buttons {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.confirmation-dialog-buttons * {
+  margin: 5px;
+}
+.confirmation-dialog-buttons button:hover {
+  background-color: rgba(192, 125, 209, 0.301);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.playlist-input label,
+input {
+  padding: 3px;
+  margin: 0 10px;
+}
+
+.playlist-input input {
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+li * {
+  display: inline;
+}
+.set-label-inline {
+  display: inline;
+}
+
+.primary-button {
+  padding: 4px;
+  background-color: var(--primary-red);
+  font-weight: bold;
+  border: 1px solid var(--primary-red);
+  margin-top: 6px;
+  color: white;
+  border-radius: 5px;
+}
+.secondary-button {
+  padding: 4px;
+  color: var(--primary-red);
+  background-color: transparent;
+  border: 1px solid var(--primary-red);
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 6px;
+}
+
+.set-background-color {
+  background-color: rgba(128, 128, 128, 0.669);
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.set-background-dull {
+  height: 100vh;
+  width: 100vw;
+}

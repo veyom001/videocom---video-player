@@ -1,0 +1,116 @@
+:root {
+  --primary-red: red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(235, 230, 230, 0.76);
+}
+
+nav {
+  /* height: 3.5rem; */
+  background-color: white;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-wrap: wrap;
+  padding: 15px 0px;
+}
+
+.brand,
+.login-signup,
+.main-content {
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+
+.brand {
+  margin-left: 1rem;
+}
+.nav-login {
+  padding: 7px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-red);
+  font-size: medium;
+  background-color: var(--primary-red);
+  color: white;
+  margin-right: 1rem;
+}
+
+.nav-signup {
+  padding: 7px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-red);
+  font-size: medium;
+  background-color: transparent;
+  color: var(--primary-red);
+}
+
+.brand-last-name {
+  color: var(--primary-red);
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field input {
+  padding-left: 2.2rem;
+  width: 35rem;
+  height: 2.2rem;
+  border: 1px solid gray;
+  font-size: large;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  color: gray;
+  height: 24px;
+  width: 24px;
+}
+
+.brand a {
+  text-decoration: none;
+}
+@media (min-width: 930px) {
+  .ham-burger {
+    display: none;
+  }
+}
+
+@media (max-width: 1030px) {
+  .input-field {
+    display: none;
+  }
+}
+
+.ham-burger,
+.ham-burger-active {
+  fill: rgb(87, 87, 87);
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  background-color: rgba(173, 173, 173, 0.178);
+  border-radius: 3px;
+}
+
+.ham-burger-active {
+  background-color: rgba(108, 108, 108, 0.422);
+}
+
+.hamburger-setting {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
