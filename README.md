@@ -96,8 +96,3 @@ I can see a logout button from where I can logout from the app
 
 This folder contains the Mock Backend created for Video Library App. It contains different API end-points and database configuration for building Video Library; so that you can focus on building Frontend.
 
-## Connect With Me
-
-- Twitter – [@aggarwal*mohit*](https://twitter.com/aggarwal_mohit_)
-- LinkedIn – [/mohit-kumar-aggarwal/](https://www.linkedin.com/in/mohit-kumar-aggarwal/)
-- Other Links – [/mohitkumar.in/](https://mohitkumar.in/)
