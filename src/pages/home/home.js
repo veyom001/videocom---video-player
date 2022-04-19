@@ -107,8 +107,8 @@ const Home = () => {
                       </div>
                       <div className="card-title text">{video.title}</div>
                       <div className="card-views">
-                        <p>6k views</p>
-                        <p className="hours-pading">| 4 hours ago</p>
+                       
+                        <p className="hours-pading">| latest </p>
                       </div>
                     </Link>
                     {isAuth ? (
